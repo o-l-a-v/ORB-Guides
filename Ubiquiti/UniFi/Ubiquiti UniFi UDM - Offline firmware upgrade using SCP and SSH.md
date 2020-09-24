@@ -16,7 +16,7 @@ Find the firmware you want flashed from ui.com.
 
 
 ### 2. Factory reset
-Wait for UDM to boot (plays a sound), then hold reset button for minimum 10 seconds.
+Wait for UDM to boot (plays a sound), then hold reset button for minimum 10 seconds/ until LED turns solid blue.
 
 
 ### 3. Upload firmware file
