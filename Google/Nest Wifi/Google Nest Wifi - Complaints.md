@@ -3,9 +3,9 @@
 ### 200623 / M81 / 12871.57.12
 #### Speed
 * 200721 - "Yet another firmware update victim"
-  https://www.reddit.com/r/GoogleWiFi/comments/hve6s4/yet_another_firmware_update_victim/
+https://www.reddit.com/r/GoogleWiFi/comments/hve6s4/yet_another_firmware_update_victim/
 * 200707 - "Speed drops with 12871.57.12 ????"
-  https://www.reddit.com/r/GoogleWiFi/comments/hmmva4/speed_drops_with_128715712/
+https://www.reddit.com/r/GoogleWiFi/comments/hmmva4/speed_drops_with_128715712/
 * 200707 - "Wifi & Wired Speed Drop 12871.57.12. Do I wait for an update? Sigh..."
 https://www.reddit.com/r/GoogleWiFi/comments/hmw1ef/wifi_wired_speed_drop_128715712_do_i_wait_for_an/
 * 200623 - "New Google Wifi firmware 12871.57.12 bandwidth speed cut in half!"
