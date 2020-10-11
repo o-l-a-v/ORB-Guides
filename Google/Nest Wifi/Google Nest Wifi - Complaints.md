@@ -1,5 +1,9 @@
 # Google Nest Wifi - Complaints
 ## User complaints
+### 200930 / M84 / 13099.94.9
+* 201010 - "Google wifi: devices can get full connection speed since last update"
+https://www.reddit.com/r/GoogleWiFi/comments/j8rnux/google_wifi_devices_can_get_full_connection_speed/
+
 ### 200623 / M81 / 12871.57.12
 #### Speed
 * 200721 - "Yet another firmware update victim"
@@ -15,7 +19,6 @@ https://support.google.com/googlenest/thread/55022253?hl=en
 https://support.google.com/googlenest/thread/73151672?hl=en
 * 200923 - "Nest Wifi doesn't manage to differentiate guest ssid devices from primary devices in Google Home app"
 https://support.google.com/googlenest/thread/72744980?hl=en
-
 
 ### 191026 / M77 / 12371.52.22
 #### Speed
@@ -36,10 +39,16 @@ https://support.google.com/googlenest/thread/33295137?hl=en
 * 190811 - "Nest WiFi - Slow wired gigabit ethernet"
 https://support.google.com/googlenest/thread/18830337?hl=en
 
+### Google WiFi -> Google Home
+* 201005 - "how do i downgrade a manager to a member on google home"
+https://support.google.com/googlenest/thread/74887534?hl=en
+
 
 ## Google resources
 ### Firmware update release notes
+* 200930 / M84 / 13099.94.9
+https://support.google.com/wifi/answer/10087384?hl=en
 * 200623 / M81 / 12871.57.12
 https://support.google.com/wifi/answer/9911425?hl=en
 * 191026 / M77 / 12371.52.22
-https://support.google.com/googlenest/answer/9537173
+https://support.google.com/wifi/answer/9537173?hl=en
