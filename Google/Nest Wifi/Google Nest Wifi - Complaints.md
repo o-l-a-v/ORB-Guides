@@ -1,5 +1,9 @@
 # Google Nest Wifi - Complaints
 ## User complaints
+### 201126 / 20Q4 / 13099.118.19
+* 201126 - "20Q4 New Firmware for G wifi & Nest Wifi"
+https://www.reddit.com/r/GoogleWiFi/comments/k15c11/20q4_new_firmware_for_g_wifi_nest_wifi/
+
 ### 200930 / M84 / 13099.94.9
 * 201010 - "Google wifi: devices can get full connection speed since last update"
 https://www.reddit.com/r/GoogleWiFi/comments/j8rnux/google_wifi_devices_can_get_full_connection_speed/
@@ -46,6 +50,8 @@ https://support.google.com/googlenest/thread/74887534?hl=en
 
 ## Google resources
 ### Firmware update release notes
+* 201126 / 20Q4 / 13099.118.19
+https://support.google.com/wifi/answer/10249067?hl=en
 * 200930 / M84 / 13099.94.9
 https://support.google.com/wifi/answer/10087384?hl=en
 * 200623 / M81 / 12871.57.12
