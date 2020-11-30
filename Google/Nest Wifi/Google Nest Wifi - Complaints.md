@@ -50,7 +50,7 @@
 
 ## Google resources
 ### Firmware update release notes
-* 201126 / 20Q4 / 13099.118.19
+* 201126 / 20Q4 / 13099.118.19  
   https://support.google.com/wifi/answer/10249067?hl=en
 * 200930 / M84 / 13099.94.9
   https://support.google.com/wifi/answer/10087384?hl=en
