@@ -1,15 +1,29 @@
 # Azure RM - Governance - Modified Microsoft naming scheme convention
 ## ToC
-
-* [Why have a naming scheme/convention](#why-have-a-naming-scheme-convention)
-* [Baseline - Microsoft CAF](#baseline---microsoft-caf)
-* [Why alter the Microsoft naming convention?](#why-alter-the-microsoft-naming-convention-)
+* [Introduction](#introduction)
+* [Why have a naming scheme](#why-have-a-naming-scheme)
+* [Baseline - The Microsoft CAF naming scheme](#baseline---the-microsoft-caf-naming-scheme)
+* [Why alter the Microsoft CAF naming scheme?](#why-alter-the-microsoft-caf-naming-scheme-)
 * [Unofficial abbreviations](#unofficial-abbreviations)
 * [Microsoft naming scheme alterations](#microsoft-naming-scheme-alterations)
 * [Resources](#resources)
 
 
-## Why have a naming scheme/convention
+
+## Introduction
+In this doc I try to suggest alterations to the Microsoft CAF naming scheme, in order to make it fit my needs. My needs are based on my experience working in Azure.
+
+Throughout this doc I'll use following terms in the following way:
+
+|Word|Meaning
+|:--|:--
+|Scheme    |Agreed and documented strategy and practices when it comes to how to name Azure resources.
+|Convention|Interchangable with "scheme", I'll write "scheme" only.
+|Prefix    |Pattern of the name: Components and the order of those.
+
+
+
+## Why have a naming scheme
 * Names in Azure can't be altered after creation.
   * Thus naming scheme/convention should be thought of before creating Azure resources, not after.
 * Avoid human error:
@@ -23,7 +37,7 @@
 
 
 
-## Baseline - Microsoft CAF
+## Baseline - The Microsoft CAF naming scheme
 Instead of starting from scratch, let's reuse the already great baseline Microsoft provides in CAF.
 
 * [Abbreviations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations)
@@ -33,7 +47,7 @@ Instead of starting from scratch, let's reuse the already great baseline Microso
 
 
 
-## Why alter the Microsoft naming convention?
+## Why alter the Microsoft CAF naming scheme?
 ### Azure resources naming limitations
 Many Azure resources have naming limitations, like what kind of characters can be used, and length (total amount of characters).
 * Every character counts, so don't bloat the naming scheme or convention with padding.
@@ -43,19 +57,19 @@ Some Azure resources naming limitations is so strict that it requires a special 
 
 
 ### Group resources that share lifecycle when sorting alphabetically
-The Microsoft naming scheme defines the resource type as the first component in the convention, which makes it so that resources that share lifecycle does not get grouped when sorting Azure resources alphabetically.
-* Tagging and searching can make this experience better without altering the Microsoft naming convention though.
+The Microsoft naming scheme defines the resource type as the first component in the prefix, which makes it so that resources that share lifecycle does not get grouped when sorting Azure resources alphabetically.
+* Tagging, searching and filtering can make this experience better without altering the Microsoft naming convention though.
 
 
 ### Other benefits
-* Same length / number of characters for as many of the components in the convention as possible, makes any list of resources more tidy and readable.
+* Same length / number of characters for as many of the components in the prefix as possible, makes any list of resources more tidy and readable.
 
 
 
 ## Unofficial abbreviations
 Abbreviations that are missing in the [Microsoft CAF abbreviation list](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations).
 
-|Azure resource | Suggested abbreviation |GitHub issue
+|Azure resource |Suggested abbreviation |GitHub issue
 |:--|:--|:--
 |Alert Rule               |aru  |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1024
 |Sentinel                 |sent |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1023
@@ -65,7 +79,7 @@ Abbreviations that are missing in the [Microsoft CAF abbreviation list](https://
 
 
 
-## Microsoft naming scheme alterations
+## Microsoft CAF naming scheme alterations
 ### Prefix
 #### Microsoft
 * Prefix: `<resource_type_abbreviation>-<workload/application>-<environment>-<region>-<instance:3>`
