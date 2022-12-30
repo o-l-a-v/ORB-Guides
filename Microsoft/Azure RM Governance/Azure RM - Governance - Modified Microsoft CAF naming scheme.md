@@ -24,6 +24,7 @@ Throughout this doc I'll use following terms in the following way:
 
 
 ## Why have a naming scheme?
+### General
 * Names in Azure can't be altered after creation.
   * Thus naming scheme/convention should be thought of before creating Azure resources, not after.
 * Avoid human error:
@@ -34,6 +35,11 @@ Throughout this doc I'll use following terms in the following way:
 * Avoid duplicate names.
   * Some Azure resource types only require the name to be unique within the resource group.
     * Thus when viewing all resources in Azure, some resources could end up with the same name.
+
+
+### Summarized
+* Uniformity.
+* Avoid naming conflict in as few characters as possible.
 
 
 
@@ -69,13 +75,14 @@ The Microsoft naming scheme defines the resource type as the first component in 
 ## Unofficial abbreviations
 Abbreviations that are missing in the [Microsoft CAF abbreviation list](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations).
 
-|Azure resource |Suggested abbreviation |GitHub issue
-|:--|:--|:--
-|Alert Rule               |aru  |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1024
-|Sentinel                 |sent |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1023
-|Update Management        |aaum |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1022
-|Update Management Center |umc  |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1022
-|On-premises Data Gateway |odgw |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1028
+|Provider |Resource |Suggested abbreviation |GitHub issue
+|:--|:--|:--|:--
+|Microsoft.Insights             |Activity log alerts      |alar |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1024
+|Microsoft.Insights             |Metric alerts            |mar  |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1024
+|Microsoft.OperationsManagement |Sentinel                 |sent |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1023
+|Microsoft.OperationalInsights  |Update Management        |aaum |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1022
+|?                              |Update Management Center |umc  |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1022
+|Microsoft.Web                  |On-premises Data Gateway |odgw |https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/1028
 
 
 
@@ -184,7 +191,7 @@ Microsoft suggested abbreviation for region is problematic, because:
 ##### Justification
 * Limitations: Globally unique name, no hyphens, 3-24 characters.
 ##### Scheme
-`<first_two_characters_of_naming_convention_except_for_region_and_resource_type>`
+* First two characters of each component in the the general naming prefix, except for region and resource type.
 ##### Example
 * `shprweeu01st`
 
