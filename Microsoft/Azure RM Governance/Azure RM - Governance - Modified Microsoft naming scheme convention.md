@@ -1,4 +1,14 @@
 # Azure RM - Governance - Modified Microsoft naming scheme convention
+## ToC
+
+* [Why have a naming scheme/convention](#why-have-a-naming-scheme-convention)
+* [Baseline - Microsoft CAF](#baseline---microsoft-caf)
+* [Why alter the Microsoft naming convention?](#why-alter-the-microsoft-naming-convention-)
+* [Unofficial abbreviations](#unofficial-abbreviations)
+* [Microsoft naming scheme alterations](#microsoft-naming-scheme-alterations)
+* [Resources](#resources)
+
+
 ## Why have a naming scheme/convention
 * Names in Azure can't be altered after creation.
   * Thus naming scheme/convention should be thought of before creating Azure resources, not after.
