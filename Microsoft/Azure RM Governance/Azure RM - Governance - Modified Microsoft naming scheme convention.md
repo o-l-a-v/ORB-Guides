@@ -23,12 +23,13 @@ Instead of starting from scratch, let's reuse the already great baseline Microso
 
 
 
-## Why alter tha Microsoft naming convention?
+## Why alter the Microsoft naming convention?
 ### Azure resources naming limitations
 Many Azure resources have naming limitations, like what kind of characters can be used, and length (total amount of characters).
 * Every character counts, so don't bloat the naming scheme or convention with padding.
+
 Some Azure resources naming limitations is so strict that it requires a special naming scheme, which Microsoft hasn't already defined.
-  * Like Storage Accounts.
+* Like Storage Accounts.
 
 
 ### Group resources that share lifecycle when sorting alphabetically
