@@ -107,9 +107,9 @@ Cut a leading zero: How likely are we to reach more than 99 (01-99) instances?
 ### Region
 #### About
 Microsoft suggested abbreviation for region is problematic, because:
-* Abbreviation is not defined for all Azure regions.
-* Abbreviation has variable length.
-* Abbreviation is unnessesary long for some regions.
+* Abbreviations are not defined for all Azure regions.
+* Abbreviations have variable length.
+* Abbreviations are unnessesary long for some regions.
 * It's not consequent: Some regions have cardinal directions first (west, east etc.), while others doesn't.
   * But it's hard to strike a balance between making a abbreviation for a geolocation agnostic/generic, vs. confusing/not maching the Azure region.
 
