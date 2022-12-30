@@ -1,11 +1,11 @@
 # Azure RM - Governance - Modified Microsoft naming scheme convention
 ## ToC
 * [Introduction](#introduction)
-* [Why have a naming scheme?](#why-have-a-naming-scheme-)
+* [Why have a naming scheme?](#why-have-a-naming-scheme)
 * [Baseline - The Microsoft CAF naming scheme](#baseline---the-microsoft-caf-naming-scheme)
-* [Why alter the Microsoft CAF naming scheme?](#why-alter-the-microsoft-caf-naming-scheme-)
+* [Why alter the Microsoft CAF naming scheme?](#why-alter-the-microsoft-caf-naming-scheme)
 * [Unofficial abbreviations](#unofficial-abbreviations)
-* [Microsoft naming scheme alterations](#microsoft-naming-scheme-alterations)
+* [Microsoft CAF naming scheme alterations](#microsoft-caf-naming-scheme-alterations)
 * [Resources](#resources)
 
 
