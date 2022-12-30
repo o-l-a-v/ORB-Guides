@@ -72,8 +72,8 @@ Abbreviations that are missing in the [Microsoft CAF abbreviation list](https://
 #### Environment
 Three characters for every environment.
 
-|Microsoft naming convention |3 characters |2 characters
-|:--|:--
+|Microsoft naming convention |3ch |2ch
+|:--|:--|:--
 |prod    |prd |pd
 |preprod |ppd |pp
 |stage   |stg |st
