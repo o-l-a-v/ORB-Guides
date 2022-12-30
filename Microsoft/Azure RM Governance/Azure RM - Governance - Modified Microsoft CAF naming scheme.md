@@ -1,4 +1,4 @@
-# Azure RM - Governance - Modified Microsoft naming scheme convention
+# Azure RM - Governance - Modified Microsoft CAF naming scheme
 ## ToC
 * [Introduction](#introduction)
 * [Why have a naming scheme?](#why-have-a-naming-scheme)
