@@ -106,7 +106,7 @@ Three characters for every environment.
 |Microsoft naming convention |3ch |2ch
 |:--|:--|:--
 |dev      |dev |dv
-|platform |plf |pl
+|platform |plf |pf
 |preprod  |ppd |pp
 |prod     |prd |pd
 |stage    |stg |st
