@@ -178,7 +178,7 @@ Microsoft suggested abbreviation for region is problematic, because:
 |France South            |frso |eufrso |frs
 |Germany North           |geno |eudeno |den
 |Germany West Central    |gewc |eudewe |dew
-|North Europe (Dublin)   |noeu |euieea |ieu
+|North Europe (Dublin)   |noeu |euieea |iee
 |Norway East             |noea |eunoea |noe
 |Norway West             |nowe |eunowe |now
 |Sweden Central          |swce |eusece |sec
