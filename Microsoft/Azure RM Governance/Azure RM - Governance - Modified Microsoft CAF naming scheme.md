@@ -105,11 +105,13 @@ Three characters for every environment.
 
 |Microsoft naming convention |3ch |2ch
 |:--|:--|:--
-|prod    |prd |pd
-|preprod |ppd |pp
-|stage   |stg |st
-|test    |tst |ts
-|dev     |dev |dv
+|dev      |dev |dv
+|platform |plf |pl
+|preprod  |ppd |pp
+|prod     |prd |pd
+|stage    |stg |st
+|test     |tst |ts
+
 
 
 ### Instance
@@ -171,6 +173,7 @@ Microsoft suggested abbreviation for region is problematic, because:
 
 |Region name |4ch by Azure region name |6ch `<continent:2\|country:2\|cardinal_direction:2>` | 3ch `<country:2\|cardinal_direction:1>`
 |:--|:--|:--|:--
+|Global                  |glob |global |glo
 |France Central          |frce |eufrce |frc
 |France South            |frso |eufrso |frs
 |Germany North           |geno |eudeno |den
